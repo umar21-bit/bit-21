@@ -1715,22 +1715,30 @@ body{
 	Start Clients CSS
 ==========================*/
 .clients {
-    background-image: url('img/client-bg.jpg');
-    background-size: cover;
-    background-position: center;
-    padding: 100px 0;
-    position: relative;
+	background-image: url('img/client-bg.jpg');
+	background-size: cover;
+	background-position: center;
+	padding: 100px 0px;
+	position: relative;
+	display: flex;
+	justify-content: space-around; /* or space-between or space-evenly depending on the desired spacing */
+	align-items: center;
 }
 
 .clients .single-clients {
-    /* Add any styles here if needed */
+	flex: 1; /* allows each .single-clients to grow and shrink equally */
+	max-width: 200px; /* adjust based on your design */
+	padding: 0 10px; /* space between images */
+	box-sizing: border-box;
 }
 
 .clients .single-clients img {
-    width: 100%;
-    cursor: pointer;
-    padding: 0 35px;
+	width: 100%;
+	cursor: pointer;
+	text-align: center;
+	padding: 0 35px;
 }
+
 
 /*========================
 	End Clients CSS
