@@ -1714,28 +1714,7 @@ body{
 /*========================
 	Start Clients CSS
 ==========================*/
-.clients {
-    background-image: url('img/client-bg.jpg');
-    background-size: cover;
-    background-position: center;
-    padding: 100px 0;
-    position: relative;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center; /* Center the images horizontally */
-}
 
-.clients .single-clients {
-    flex: 0 0 auto; /* Prevent the flex item from shrinking or growing */
-    padding: 0 10px; /* Adjust padding as needed for spacing between images */
-}
-
-.clients .single-clients img {
-    height: 150px; /* Set the height of the images */
-    width: auto; /* Maintain aspect ratio */
-    cursor: pointer;
-    text-align: center;
-}
 
 
 
