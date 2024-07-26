@@ -1715,28 +1715,28 @@ body{
 	Start Clients CSS
 ==========================*/
 .clients {
-	background-image: url('img/client-bg.jpg');
-	background-size: cover;
-	background-position: center;
-	padding: 100px 0px;
-	position: relative;
-	display: flex; /* Added */
-	justify-content: center; /* Center images horizontally */
-	flex-wrap: wrap; /* Ensure images wrap if they exceed container width */
+    background-image: url('img/client-bg.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 100px 0;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* Center the images horizontally */
 }
 
 .clients .single-clients {
-	flex: 0 1 auto; /* Allow items to shrink and grow as needed */
-	padding: 10px; /* Adjust padding as needed */
+    flex: 0 0 auto; /* Prevent the flex item from shrinking or growing */
+    padding: 0 10px; /* Adjust padding as needed for spacing between images */
 }
 
 .clients .single-clients img {
-	width: 100%; /* Ensures image fits within the container */
-	cursor: pointer;
-	text-align: center;
-	float: none;
-	padding: 0 35px; /* Adjust padding as needed */
+    height: 150px; /* Set the height of the images */
+    width: auto; /* Maintain aspect ratio */
+    cursor: pointer;
+    text-align: center;
 }
+
 
 
 /*========================
